@@ -10,15 +10,15 @@ $mail->Host = "smtp.gmail.com";
 //Set this to true if SMTP host requires authentication
 $mail->SMTPAuth = true;
 //Provide username and password
-$mail->Username = "indira";
-$mail->Password = "carlsam";
+$mail->Username = "example@gmail.com";
+$mail->Password = "gmailpassword";
 //If SMTP requires TLS encryption then set it
 $mail->SMTPSecure = "tls";
 //Set TCP port to connect to
 $mail->Port = 587;
-$mail->From = "indiraeasaiya@gmail.com";
-$mail->FromName = "Indira Easaiya";
-$mail->addAddress("indiraeasaiya@ymail.com", "indira");
+$mail->From = "example@gmail.com";
+$mail->FromName = "yourname";
+$mail->addAddress("example@gmail.com", "yourusername");
 $mail->isHTML(true);
 $mail->Subject = "Subject Text";
 $mail->Body = "<i>Mail body in HTML</i>";
